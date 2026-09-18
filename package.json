@@ -1,0 +1,29 @@
+{
+  "name": "@heavnzor/racer",
+  "version": "0.1.0",
+  "description": "Evidence-driven development missions for OpenCode and Claude Code.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Antonu-Maria Mela <anto.mela@me.com>",
+  "repository": { "type": "git", "url": "https://github.com/heavnzor/heavnz0r-racer.git" },
+  "engines": { "node": ">=24.0.0" },
+  "bin": { "racer": "dist/cli.js", "racer-mcp": "dist/mcp.js" },
+  "exports": "./dist/index.js",
+  "files": ["dist", "agents", "skills", "integrations", "assets", "docs", "evals", ".claude-plugin", ".mcp.json", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "demo": "npm run build && node dist/cli.js demo",
+    "mcp": "node dist/mcp.js",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.5",
+    "typescript": "^7.0.2"
+  }
+}

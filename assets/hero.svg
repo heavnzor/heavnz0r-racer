@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="title desc">
+  <title id="title">heavnz0r'Racer — Built to ship. Engineered to verify.</title>
+  <desc id="desc">Graphite racing-terminal artwork with an acid-green circuit linking plan, build, verify and review.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c8ff4d" stop-opacity=".13"/><stop offset="1" stop-color="#c8ff4d" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1280" height="460" rx="20" fill="#0b0f14"/>
+  <rect width="1280" height="460" rx="20" fill="url(#grid)"/>
+  <path d="M880 0h400v460H700Z" fill="url(#glow)"/>
+  <rect x="48" y="42" width="7" height="18" fill="#c8ff4d"/>
+  <text x="68" y="56" fill="#f0f2eb" font-family="monospace" font-size="15" letter-spacing="3">HEAVNZ0R / ENGINEERING SYSTEMS</text>
+  <text x="1230" y="56" text-anchor="end" fill="#9ba6ad" font-family="monospace" font-size="13">01 — DEVELOPER WORKFLOW</text>
+  <text x="48" y="218" fill="#f0f2eb" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="132" letter-spacing="-7">RACER<tspan fill="#c8ff4d">.</tspan></text>
+  <text x="55" y="272" fill="#f0f2eb" font-family="Arial,Helvetica,sans-serif" font-size="27">Built to ship. Engineered to verify.</text>
+  <text x="55" y="310" fill="#9ba6ad" font-family="monospace" font-size="15">Your intent → an isolated, tested, reviewed change.</text>
+  <path d="M863 137h238q70 0 70 62v25q0 58-65 58h-136q-40 0-40 34t-42 34h-54q-48 0-48-48v-83q0-82 77-82Z" fill="none" stroke="#263136" stroke-width="25"/>
+  <path d="M863 137h238q70 0 70 62v25q0 58-65 58h-136q-40 0-40 34t-42 34h-54q-48 0-48-48v-83q0-82 77-82Z" fill="none" stroke="#c8ff4d" stroke-width="2.5" stroke-dasharray="5 7"/>
+  <circle cx="907" cy="137" r="8" fill="#c8ff4d"/><circle cx="1171" cy="207" r="8" fill="#c8ff4d"/>
+  <circle cx="1013" cy="282" r="8" fill="#c8ff4d"/><circle cx="786" cy="252" r="8" fill="#c8ff4d"/>
+  <g fill="#f0f2eb" font-family="monospace" font-size="12" letter-spacing="1"><text x="883" y="112">PLAN</text><text x="1190" y="211">BUILD</text><text x="985" y="263">VERIFY</text><text x="722" y="256">REVIEW</text></g>
+  <path d="M48 381h1184" stroke="#283138"/>
+  <text x="55" y="417" fill="#c8ff4d" font-family="monospace" font-size="13" letter-spacing="1">OPENCODE + CLAUDE CODE</text>
+  <text x="1230" y="417" text-anchor="end" fill="#9ba6ad" font-family="monospace" font-size="13">LOCAL STATE / REAL CHECKS / RESUMABLE MISSIONS</text>
+</svg>

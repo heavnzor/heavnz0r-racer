@@ -1,0 +1,10 @@
+{
+  "name": "racer",
+  "displayName": "heavnz0r'Racer",
+  "version": "0.1.0",
+  "description": "Evidence-driven development missions with isolated worktrees, independent review, and resumable handoffs.",
+  "author": { "name": "Antonu-Maria Mela", "url": "https://github.com/heavnzor" },
+  "repository": "https://github.com/heavnzor/heavnz0r-racer",
+  "license": "MIT",
+  "keywords": ["workflow", "agentic", "review", "developer-tools"]
+}
