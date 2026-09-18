@@ -1,3 +1,5 @@
+<p align="center"><strong>English</strong> · <a href="README.fr.md">Français</a></p>
+
 <p align="center"><img src="assets/hero.svg" alt="heavnz0r'Racer — Built to ship. Engineered to verify." width="100%"></p>
 
 <p align="center">
@@ -157,9 +159,5 @@ claude plugin validate .   # optional, when Claude Code is installed
 ```
 
 Tests exercise real Git worktrees, regression failures, stale evidence, scope violations, timeouts, recovery, installer collisions and an MCP stdio handshake. See [verification notes](evals/README.md) for the distinction between engine tests and live model evaluations.
-
-## Design lineage
-
-Inspired by [Autopilot](https://gitlab.com/e.laloum/autopilot) by **Elie Laloum**: explicit roles, adversarial review, durable work and source-backed decisions. Racer is an original implementation focused on a portable development mission and an evidence-aware state machine. [MIT licensed](LICENSE).
 
 <p align="center"><strong>Build with Racer · Break assumptions with <a href="https://github.com/heavnzor/heavnz0r-crashlab">CrashLab</a> · Explain data with <a href="https://github.com/heavnzor/heavnz0r-proofmill">ProofMill</a></strong></p>
